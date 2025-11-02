@@ -64,8 +64,8 @@ class DataSource(IntEnum):
     REDDIT = 1
     X = 2
     YOUTUBE = 3
-    UNKNOWN_4 = 4
-    UNKNOWN_5 = 5
+    ARXIV = 4
+    WIKIPEDIA = 5
     UNKNOWN_6 = 6
     UNKNOWN_7 = 7
 
@@ -75,8 +75,8 @@ class DataSource(IntEnum):
             DataSource.REDDIT: 0.58,
             DataSource.X: 0.37,
             DataSource.YOUTUBE: 0.05,
-            DataSource.UNKNOWN_4: 0,
-            DataSource.UNKNOWN_5: 0,
+            DataSource.ARXIV: 0.1,
+            DataSource.WIKIPEDIA: 0.1,
             DataSource.UNKNOWN_6: 0,
             DataSource.UNKNOWN_7: 0
         }

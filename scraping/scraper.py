@@ -22,6 +22,8 @@ class ScraperId(str, Enum):
     YOUTUBE_CRAWLMASTER_TRANSCRIPT = "YouTube.crawlmaster.transcript"
     YOUTUBE_STARVIBE_TRANSCRIPT = "YouTube.starvibe.transcript"
     YOUTUBE_MULTI_ACTOR = "YouTube.multi.actor"
+    ARXIV_CUSTOM = "Arxiv.custom"
+    WIKIPEDIA_CUSTOM = "Wikipedia.custom"
 
 
 class ValidationResult(StrictBaseModel):
