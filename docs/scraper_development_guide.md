@@ -23,6 +23,20 @@ This guide outlines the process for creating a new scraper for the Data Universe
 
 - Add a new configuration block to `scraping/config/scraping_config.json` for your new scraper.
 
+## 5. GitHub Packages
+
+This section outlines how to use GitHub Packages to store Docker images and other assets for the project.
+
+### Docker Images
+
+- **Building and Pushing Docker Images:**
+  - [Instructions on how to build and push Docker images to GitHub Packages will be added here.]
+
+### Other Assets
+
+- **Storing Other Assets:**
+  - [Instructions on how to store other assets like models or large files will be added here.]
+
 ## Checklist
 
 - [ ] New scraper file created in `scraping` directory.
